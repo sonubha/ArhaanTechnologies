@@ -20,14 +20,15 @@ const Contact = () => {
             <strong>Email:</strong> afthabarhan@gmail.com
           </p>
           <p>
-            <strong>Address:</strong> Shop No. 101, 1st Floor, Tech Park, Delhi
+            <strong>Address:</strong> Slv Spring Fields 2, MS Ramaiah North
+            City, Manayata Tech Park, Nagavara, Bengaluru, Karnataka 560045
           </p>
         </div>
 
         <div className="map-box">
           <iframe
             title="Arhaan Technologies Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14009.322701731996!2d77.2173219!3d28.6139394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce31ed1a4d9a9%3A0xcedf962c23ad86e7!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1683368340000!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.8910433892224!2d77.61961802507766!3d13.04260678727927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae176e8795c299%3A0x3107df706e694d7b!2sSlv%20Spring%20Fields%202%2C%20MS%20Ramaiah%20North%20City%2C%20Manayata%20Tech%20Park%2C%20Nagavara%2C%20Bengaluru%2C%20Karnataka%20560045!5e0!3m2!1sen!2sin!4v1748097735982!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}
