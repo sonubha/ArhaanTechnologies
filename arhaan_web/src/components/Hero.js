@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./Hero.css";
+import logo from "./asset_image/Arhaan_logo.png";
+
+
+
 
 const images = [
   "https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=1600&q=80",
@@ -49,7 +53,7 @@ const Hero = () => {
       <nav className="navbar">
         <div className="nav-container">
           <a href="#home" className="nav-logo">
-            <img src="/Arhaan_logo.png" alt="ArhaanTech Logo" />
+            <img src={logo} alt="ArhaanTech Logo" />
           </a>
 
           <button
