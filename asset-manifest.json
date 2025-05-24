@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ArhaanTechnologies/static/css/main.673d4285.css",
-    "main.js": "/ArhaanTechnologies/static/js/main.ac89de0e.js",
+    "main.js": "/ArhaanTechnologies/static/js/main.68c2ec7d.js",
     "static/js/453.11fbcb07.chunk.js": "/ArhaanTechnologies/static/js/453.11fbcb07.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/ArhaanTechnologies/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/LaptopDesktopSpares.jpg": "/ArhaanTechnologies/static/media/LaptopDesktopSpares.3b4fdd3ac9dd18445875.jpg",
@@ -18,11 +18,11 @@
     "static/media/Refurbished Laptop.avif": "/ArhaanTechnologies/static/media/Refurbished Laptop.bcd6f95cab0416103f14.avif",
     "index.html": "/ArhaanTechnologies/index.html",
     "main.673d4285.css.map": "/ArhaanTechnologies/static/css/main.673d4285.css.map",
-    "main.ac89de0e.js.map": "/ArhaanTechnologies/static/js/main.ac89de0e.js.map",
+    "main.68c2ec7d.js.map": "/ArhaanTechnologies/static/js/main.68c2ec7d.js.map",
     "453.11fbcb07.chunk.js.map": "/ArhaanTechnologies/static/js/453.11fbcb07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.673d4285.css",
-    "static/js/main.ac89de0e.js"
+    "static/js/main.68c2ec7d.js"
   ]
 }
