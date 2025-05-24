@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+@import "~font-awesome/css/font-awesome.min.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.social-links-container {
+  padding: 2rem 1rem;
+}
+
+.social-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0 auto;
+  list-style: none;
+  gap: 1rem;
+}
+
+.social-list li {
+  list-style: none;
+  margin: 0;
+  position: relative;
+}
+
+.social-list li a {
+  text-decoration: none;
+  display: block;
+  width: 210px;
+  height: 80px;
+  background: #fff;
+  text-align: left;
+  padding-left: 20px;
+  transform: rotate(-30deg) skew(25deg);
+  transition: 0.5s;
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.social-list li a .fa {
+  font-size: 40px;
+  color: #262626;
+  line-height: 80px;
+  transition: 0.5s;
+  padding-right: 14px;
+}
+
+.social-list li a span {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  color: #262626;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+
+.social-list li a:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #b1b1b1;
+  transform: skewY(-45deg);
+}
+
+.social-list li a:after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background: #b1b1b1;
+  transform: skewX(-45deg);
+}
+
+.social-list li a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+  box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+.social-list li:hover .fa,
+.social-list li:hover span {
+  color: #fff;
+}
+
+.social-list li:hover a {
+  background: var(--hover-color);
+}
+
+.social-list li:hover a:before,
+.social-list li:hover a:after {
+  background: var(--hover-color);
+}
+
+/* Responsive Design: Scrollable Row */
+@media (max-width: 768px) {
+  .social-list {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .social-list li {
+    display: inline-block;
+    flex: 0 0 auto;
+  }
+
+  .social-list li a {
+    width: 260px;
+    height: 70px;
+    transform: rotate(0deg) skew(0deg);
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3);
+    padding-left: 15px;
+  }
+
+  .social-list li a:hover {
+    transform: translateY(-5px);
+  }
+
+  .social-list li a .fa {
+    font-size: 28px;
+    line-height: 70px;
+  }
+
+  .social-list li a span {
+    font-size: 1rem;
+    top: 22px;
+    left: 60px;
+  }
+
+  .social-list li a:before,
+  .social-list li a:after {
+    display: none;
+  }
+
+  /* Scrollbar Styling */
+  .social-list::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .social-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+
+  .social-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
