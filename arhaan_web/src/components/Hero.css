@@ -1,25 +1,54 @@
-/* Background crossfade images */
+/* Background sliding images with single div and pseudo elements */
 .bg-image {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  --slide-duration: 600ms;
+  --slide-distance: 100%;
+}
+
+.bg-image::before,
+.bg-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: opacity 1s ease-in-out;
+  transition: transform var(--slide-duration) ease-in-out;
+  will-change: transform;
   z-index: 0;
-  opacity: 0;
 }
 
-/* Fade states */
-.fade-in {
-  opacity: 1;
+.bg-image::before {
+  background-image: var(--first-image);
 }
 
-.fade-out {
-  opacity: 0;
+.bg-image::after {
+  background-image: var(--second-image);
+}
+
+/* When data-first=true */
+.bg-image[data-first="true"]::before {
+  transform: translateX(0);
+  z-index: 2;
+}
+
+.bg-image[data-first="true"]::after {
+  transform: translateX(100%);
+  z-index: 1;
+}
+
+/* When data-first=false */
+.bg-image[data-first="false"]::before {
+  transform: translateX(-100%);
+  z-index: 1;
+}
+
+.bg-image[data-first="false"]::after {
+  transform: translateX(0);
+  z-index: 2;
 }
 
 /* HERO SECTION */
@@ -120,7 +149,7 @@
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   padding: 0.5rem 0;
-  z-index: 10; /* Ensure navbar is above backgrounds */
+  z-index: 10;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }

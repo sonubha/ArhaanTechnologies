@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./Hero.css";
 
 const images = [
@@ -11,38 +11,39 @@ const images = [
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [fade, setFade] = useState(true);
+  const [dataFirst, setDataFirst] = useState(true); // toggles which pseudo element shows
   const [isOpen, setIsOpen] = useState(false);
-  const timeoutRef = useRef(null);
 
   useEffect(() => {
-    timeoutRef.current = setInterval(() => {
-      setFade(false);
-      setTimeout(() => {
-        setCurrentIndex((prev) => (prev + 1) % images.length);
-        setFade(true);
-      }, 1000);
+    const interval = setInterval(() => {
+      setDataFirst((prev) => !prev);
+      setCurrentIndex((prev) => (prev + 1) % images.length);
     }, 6000);
 
-    return () => clearInterval(timeoutRef.current);
+    return () => clearInterval(interval);
   }, []);
+
+  // Determine which image goes to ::before and which goes to ::after based on dataFirst
+  const firstImage = dataFirst
+    ? images[currentIndex]
+    : images[(currentIndex - 1 + images.length) % images.length];
+  const secondImage = dataFirst
+    ? images[(currentIndex - 1 + images.length) % images.length]
+    : images[currentIndex];
 
   const toggleMenu = () => setIsOpen((prev) => !prev);
   const closeMenu = () => setIsOpen(false);
 
-  const nextIndex = (currentIndex + 1) % images.length;
-
   return (
     <section id="home" className="hero">
-      {/* Background crossfade layers */}
       <div
-        className={`bg-image ${fade ? "fade-in" : "fade-out"}`}
-        style={{ backgroundImage: `url(${images[currentIndex]})` }}
-      />
-      <div
-        className={`bg-image ${fade ? "fade-out" : "fade-in"}`}
-        style={{ backgroundImage: `url(${images[nextIndex]})` }}
-      />
+        className="bg-image"
+        data-first={dataFirst}
+        style={{
+          "--first-image": `url(${firstImage})`,
+          "--second-image": `url(${secondImage})`,
+        }}
+      ></div>
 
       {/* Navbar */}
       <nav className="navbar">
