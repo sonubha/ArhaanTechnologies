@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/ArhaanTechnologies/arhaan_web/static/css/main.acdcbe3a.css",
-    "main.js": "/ArhaanTechnologies/arhaan_web/static/js/main.bdbb6474.js",
-    "static/js/453.11fbcb07.chunk.js": "/ArhaanTechnologies/arhaan_web/static/js/453.11fbcb07.chunk.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/ArhaanTechnologies/arhaan_web/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/LaptopDesktopSpares.jpg": "/ArhaanTechnologies/arhaan_web/static/media/LaptopDesktopSpares.3b4fdd3ac9dd18445875.jpg",
-    "static/media/fontawesome-webfont.eot": "/ArhaanTechnologies/arhaan_web/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/ArhaanTechnologies/arhaan_web/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/Refurbished Desktops.avif": "/ArhaanTechnologies/arhaan_web/static/media/Refurbished Desktops.a4d0605b225b12ac1009.avif",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/ArhaanTechnologies/arhaan_web/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/CCTV Installation And Maintenance.jpg": "/ArhaanTechnologies/arhaan_web/static/media/CCTV Installation And Maintenance.08aaa5d628ccd8c5de6c.jpg",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/ArhaanTechnologies/arhaan_web/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/Arhaan_logo.png": "/ArhaanTechnologies/arhaan_web/static/media/Arhaan_logo.547d24729719a8c0812e.png",
-    "static/media/Gaming Laptops & Desktops.avif": "/ArhaanTechnologies/arhaan_web/static/media/Gaming Laptops & Desktops.712aea9eeb4f303aaa23.avif",
-    "static/media/CCTVWorks.png": "/ArhaanTechnologies/arhaan_web/static/media/CCTVWorks.0d847e39188cf4c338ce.png",
-    "static/media/intercomEntranceSystem.webp": "/ArhaanTechnologies/arhaan_web/static/media/intercomEntranceSystem.7faa066ad38eaa5c652d.webp",
-    "static/media/Refurbished Laptop.avif": "/ArhaanTechnologies/arhaan_web/static/media/Refurbished Laptop.bcd6f95cab0416103f14.avif",
-    "index.html": "/ArhaanTechnologies/arhaan_web/index.html",
-    "main.acdcbe3a.css.map": "/ArhaanTechnologies/arhaan_web/static/css/main.acdcbe3a.css.map",
-    "main.bdbb6474.js.map": "/ArhaanTechnologies/arhaan_web/static/js/main.bdbb6474.js.map",
-    "453.11fbcb07.chunk.js.map": "/ArhaanTechnologies/arhaan_web/static/js/453.11fbcb07.chunk.js.map"
+    "main.css": "/ArhaanTechnologies/static/css/main.673d4285.css",
+    "main.js": "/ArhaanTechnologies/static/js/main.ac89de0e.js",
+    "static/js/453.11fbcb07.chunk.js": "/ArhaanTechnologies/static/js/453.11fbcb07.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/ArhaanTechnologies/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/LaptopDesktopSpares.jpg": "/ArhaanTechnologies/static/media/LaptopDesktopSpares.3b4fdd3ac9dd18445875.jpg",
+    "static/media/fontawesome-webfont.eot": "/ArhaanTechnologies/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/ArhaanTechnologies/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Refurbished Desktops.avif": "/ArhaanTechnologies/static/media/Refurbished Desktops.a4d0605b225b12ac1009.avif",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/ArhaanTechnologies/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/CCTV Installation And Maintenance.jpg": "/ArhaanTechnologies/static/media/CCTV Installation And Maintenance.08aaa5d628ccd8c5de6c.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/ArhaanTechnologies/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/Arhaan_logo.png": "/ArhaanTechnologies/static/media/Arhaan_logo.547d24729719a8c0812e.png",
+    "static/media/Gaming Laptops & Desktops.avif": "/ArhaanTechnologies/static/media/Gaming Laptops & Desktops.712aea9eeb4f303aaa23.avif",
+    "static/media/CCTVWorks.png": "/ArhaanTechnologies/static/media/CCTVWorks.0d847e39188cf4c338ce.png",
+    "static/media/intercomEntranceSystem.webp": "/ArhaanTechnologies/static/media/intercomEntranceSystem.7faa066ad38eaa5c652d.webp",
+    "static/media/Refurbished Laptop.avif": "/ArhaanTechnologies/static/media/Refurbished Laptop.bcd6f95cab0416103f14.avif",
+    "index.html": "/ArhaanTechnologies/index.html",
+    "main.673d4285.css.map": "/ArhaanTechnologies/static/css/main.673d4285.css.map",
+    "main.ac89de0e.js.map": "/ArhaanTechnologies/static/js/main.ac89de0e.js.map",
+    "453.11fbcb07.chunk.js.map": "/ArhaanTechnologies/static/js/453.11fbcb07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acdcbe3a.css",
-    "static/js/main.bdbb6474.js"
+    "static/css/main.673d4285.css",
+    "static/js/main.ac89de0e.js"
   ]
 }
